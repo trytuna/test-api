@@ -1,5 +1,6 @@
 import Fluent
 import Vapor
+import SPMLDAP
 
 struct TodoController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
